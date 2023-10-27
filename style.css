@@ -29,10 +29,9 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+       height: 100vh;
       
-      
-   
-  }
+     }
 
   body * {
     font-family: 'Inter', sans-serif;
@@ -156,5 +155,11 @@
     border: 1,5px solidvar(--text-color);
   }
 
-
-  
+  @media (min-width: 700px){
+    :root {
+      --bg-url: url(./Images/bg-desktop.jpg);
+    }
+    .light {
+      --bg-url: url(./Images/bg-desktop-light.jpg);
+    }
+  }
