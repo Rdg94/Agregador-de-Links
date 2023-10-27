@@ -7,6 +7,7 @@ function toggleMode() {
     html.classList.add("light")
   }
 
+  /* mudando a imagem do avatar*/
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
     img.setAttribute("src", "Images/avatar-light.png")
